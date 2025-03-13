@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -30,13 +31,13 @@
             top: 10px;
             left: 20px;
             font-family: 'Arial', sans-serif;
-            font-size: 1.2em; /* Más pequeño */
+            font-size: 1.2em;
             font-weight: 700;
             text-transform: uppercase;
             letter-spacing: 1px;
-            color: #d4a017; /* Color dorado para un toque premium */
+            color: #d4a017;
             margin: 0;
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Sombra sutil */
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
         }
 
         /* Título principal */
@@ -44,8 +45,8 @@
             font-size: 2.2em;
             margin: 0;
             letter-spacing: 1px;
-            padding-top: 20px; /* Espacio para no chocar con el logo */
-            color: #ffffff; /* Blanco para contraste */
+            padding-top: 20px;
+            color: #ffffff;
         }
 
         /* Contenedor principal */
@@ -124,6 +125,33 @@
             text-decoration: underline;
         }
 
+        /* Botón flotante de WhatsApp */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 60px;
+            height: 60px;
+            background-color: #25D366;
+            color: white;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 60px;
+            font-size: 2em;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            text-decoration: none;
+            z-index: 1000;
+            transition: transform 0.3s;
+        }
+
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+        }
+
+        .whatsapp-float i {
+            vertical-align: middle;
+        }
+
         /* Pie de página */
         footer {
             text-align: center;
@@ -176,13 +204,18 @@
         <section>
             <h2>¿Necesitas Ayuda?</h2>
             <p>Para más información o para coordinar tu compra, contáctanos. ¡Estaremos encantados de atenderte!</p>
-            <p><span class="emoji-icon">📲</span> Sigue este enlace para ver nuestro catálogo en WhatsApp: <a href="https://wa.me/c/51920807184" class="whatsapp-link" target="_blank">https://wa.me/c/51920807184</a></p>
-            <a href="https://wa.me/51920807184" class="btn" target="_blank">Contáctanos por WhatsApp</a>
+            <p><span class="emoji-icon">📲</span> Sigue este enlace para ver nuestro catálogo en WhatsApp: <a href="https://wa.me/c/5192080718" class="whatsapp-link" target="_blank">https://wa.me/c/5192080718</a></p>
+            <a href="https://wa.me/5192080718" class="btn" target="_blank">Contáctanos por WhatsApp</a>
         </section>
     </div>
 
     <footer>
         <p>Te Equipamos</p>
     </footer>
+
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://wa.me/message/OT2ASJ6LQTQ6N1" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
 </body>
 </html>
