@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entregas y Envíos - Te Equipamos</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Encabezado */
+        header {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            padding: 20px 40px;
+            position: relative;
+            text-align: center;
+        }
+
+        /* Estilo del logo en texto */
+        .logo {
+            position: absolute;
+            top: 10px;
+            left: 20px;
+            font-family: 'Arial', sans-serif;
+            font-size: 1.2em; /* Más pequeño */
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #d4a017; /* Color dorado para un toque premium */
+            margin: 0;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Sombra sutil */
+        }
+
+        /* Título principal */
+        header h1 {
+            font-size: 2.2em;
+            margin: 0;
+            letter-spacing: 1px;
+            padding-top: 20px; /* Espacio para no chocar con el logo */
+            color: #ffffff; /* Blanco para contraste */
+        }
+
+        /* Contenedor principal */
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        /* Secciones */
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #2a5298;
+            font-size: 1.8em;
+            border-bottom: 2px solid #2a5298;
+            padding-bottom: 10px;
+        }
+
+        p, li {
+            font-size: 1.1em;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            position: relative;
+            padding-left: 25px;
+            margin-bottom: 10px;
+        }
+
+        ul li:before {
+            content: "✔";
+            color: #2a5298;
+            position: absolute;
+            left: 0;
+        }
+
+        /* Iconos personalizados */
+        .emoji-icon {
+            font-size: 1.2em;
+            margin-right: 5px;
+        }
+
+        /* Botón de acción */
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: #2a5298;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #1e3c72;
+        }
+
+        /* Enlace WhatsApp */
+        .whatsapp-link {
+            color: #25D366;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .whatsapp-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Pie de página */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1e3c72;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Te Equipamos</div>
+        <h1>Entregas y Envíos</h1>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Tipos de Entrega en Perú</h2>
+            <p>En <strong>Te Equipamos</strong>, ofrecemos dos tipos de entrega para nuestros productos en Perú:</p>
+            <ul>
+                <li><span class="emoji-icon">✅</span> <strong>Entrega inmediata en Lima:</strong> Contamos con productos disponibles para entrega inmediata en Lima Metropolitana.</li>
+                <li><span class="emoji-icon">✅</span> <strong>Productos bajo pedido:</strong> Algunos productos requieren un tiempo de entrega de 1 a 3 semanas.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Envíos a Todo el Perú</h2>
+            <p><span class="emoji-icon">📦</span> Realizamos envíos desde Chorrillos a Lima Metropolitana y al interior del país.</p>
+        </section>
+
+        <section>
+            <h2>Costo de Envío</h2>
+            <p><span class="emoji-icon">💰</span> Los gastos de envío, tanto para Lima como para provincia, son asumidos por el cliente.</p>
+        </section>
+
+        <section>
+            <h2>Recogida en Chorrillos</h2>
+            <p><span class="emoji-icon">📍</span> Puedes recoger tu pedido sin costo adicional en Chorrillos, Lima, previa coordinación.</p>
+        </section>
+
+        <section>
+            <h2>Opciones de Envío en Lima</h2>
+            <p><span class="emoji-icon">🚚</span> Envíos a través de Olva Courier.</p>
+            <p>Si prefieres un servicio de delivery express con Rappi o Glovo, puedes coordinarlo directamente y enviar a tu repartidor a recoger el pedido.</p>
+        </section>
+
+        <section>
+            <h2>¿Necesitas Ayuda?</h2>
+            <p>Para más información o para coordinar tu compra, contáctanos. ¡Estaremos encantados de atenderte!</p>
+            <p><span class="emoji-icon">📲</span> Sigue este enlace para ver nuestro catálogo en WhatsApp: <a href="https://wa.me/c/5192080718" class="whatsapp-link" target="_blank">https://wa.me/c/5192080718</a></p>
+            <a href="https://wa.me/5192080718" class="btn" target="_blank">Contáctanos por WhatsApp</a>
+        </section>
+    </div>
+
+    <footer>
+        <p>Te Equipamos</p>
+    </footer>
+</body>
+</html>
